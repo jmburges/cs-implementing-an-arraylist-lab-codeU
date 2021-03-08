@@ -1,7 +1,6 @@
 /**
  *
  */
-package com.flatironschool.javacs;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -222,6 +221,10 @@ public class MyArrayList<T> implements List<T> {
 		T old = get(index);
 		array[index] = element;
 		return old;
+		
+		
+		
+		
 	}
 
 	@Override
